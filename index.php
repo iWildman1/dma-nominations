@@ -18,9 +18,8 @@
   </head>
   <body>
     <div class="central">
-      <h1>Demon Media Awards 2016</h1>
+      <img class="mainlogo" src="images/logo.png" alt="Demon Media Awards 2016 Logo" />
       <p>
-        If you think someone deserves an award at this years ceremony, then simply fill <br>out the form below and we'll take it from there!
       </p>
       <form class="main-form" action="api/nominate/index.php" method="post" id="main-form">
         <h2>Demon Media Award Nominations</h2>
