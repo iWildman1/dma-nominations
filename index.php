@@ -8,7 +8,8 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="/styles/app.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="styles/app.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="swal/sweetalert.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -16,33 +17,27 @@
     <![endif]-->
   </head>
   <body>
-			<form id="main-form" class="form-center" action="/api/nominate/" method="post" enctype="multipart/form-data">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="input-group">
-						  <input id="firstNum" type="text" class="form-control form-inline" placeholder="" name="first">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="input-group">
-						  <input id="secondNum" type="text" class="form-control form-inline" placeholder="" name="second">
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-					  <div class="input-group">
-					    <div class="input-group">
-					      <button type="submit" class="btn btn-default" name="button">Go!</button>
-					    </div>
-					  </div>
-					</div>
-				</div>
-			</form>
-		</div>
+    <div class="central">
+      <h1>Demon Media Awards 2016</h1>
+      <p>
+        If you think someone deserves an award at this years ceremony, then simply fill <br>out the form below and we'll take it from there!
+      </p>
+      <form class="main-form" action="api/nominate/index.php" method="post" id="main-form">
+        <h2>Demon Media Award Nominations</h2>
+        <hr></hr>
+          <input type="text" class="form-control half" placeholder="Nominee Name" name="name">
+          <select class="half form-control" placeholder="Category" name="category">
+            <option value="option">option</option>
+          </select>
+          <input type="file" class="form-control" name="supporting">
+          <textarea class="form-control" name="additional" rows="4" cols="40" placeholder="Additional Info..."></textarea>
+          <button type="submit" class="form-button" name="button"> Submit Nomination</button>
+      </form>
+    </div>
 
+    <script src="swal/sweetalert.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script src="/js/init.js"></script>
+		<script src="js/init.js"></script>
   </body>
 </html>
