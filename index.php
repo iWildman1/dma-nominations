@@ -26,7 +26,29 @@
         <hr></hr>
           <input type="text" class="form-control half" placeholder="Nominee Name" name="name">
           <select class="half form-control" placeholder="Category" name="category">
-            <option value="option">option</option>
+            <option value="The Demon and Demon Online - Best Newcomer">The Demon and Demon Online - Best Newcomer</option>
+            <option value="The Demon and Demon Online - Best Male">The Demon and Demon Online - Best Male</option>
+            <option value="The Demon and Demon Online - Best Female">The Demon and Demon Online - Best Female</option>
+            <option value="The Demon - Best Article">The Demon - Best Article</option>
+            <option value="The Demon - Best Section">The Demon - Best Section</option>
+            <option value="Demon Online - Best Article">Demon Online - Best Article</option>
+            <option value="Demon Online - Best Section">Demon Online - Best Section</option>
+            <option value="DemonFM - Best Newcomer">DemonFM - Best Newcomer</option>
+            <option value="DemonFM - Best Male">DemonFM - Best Male</option>
+            <option value="DemonFM - Best Female">DemonFM - Best Female</option>
+            <option value="DemonFM - Best BTS Male">DemonFM - Best BTS Male</option>
+            <option value="DemonFM - Best BTS Female">DemonFM - Best BTS Female</option>
+            <option value="DemonFM - Best Specialist Show">DemonFM - Best Specialist Show</option>
+            <option value="DemonFM - Best Entertainment Show">DemonFM - Best Entertainment Show</option>
+            <option value="DemonFM - Best Strand">DemonFM - Best Strand</option>
+            <option value="Demon TV - Best Newcomer">Demon TV - Best Newcomer</option>
+            <option value="Demon TV - Best On-Screen Male">Demon TV - Best On-Screen Male</option>
+            <option value="Demon TV - Best On-Screen Female">Demon TV - Best On-Screen Female</option>
+            <option value="Demon TV - Best Off-Screen Male">Demon TV - Best Off-Screen Male</option>
+            <option value="Demon TV - Best Off-Screen Female">Demon TV - Best Off-Screen Female</option>
+            <option value="Demon TV - Best Show">Demon TV - Best Show</option>
+            <option value="Demon TV - Best Individual Video">Demon TV - Best Individual Video</option>
+            <option value="Collaborative Project of the Year">Collaborative Project of the Year</option>
           </select>
           <input type="file" class="form-control" name="supporting">
           <input type="file" class="form-control" name="document">
