@@ -29,6 +29,7 @@
             <option value="option">option</option>
           </select>
           <input type="file" class="form-control" name="supporting">
+          <input type="file" class="form-control" name="document">
           <textarea class="form-control" name="additional" rows="4" cols="40" placeholder="Additional Info..."></textarea>
           <button type="submit" class="form-button" name="button"> Submit Nomination</button>
       </form>

@@ -51,7 +51,7 @@ body::before {
 }
 
 .mainlogo {
-  width: 400px;
+  width: 300px;
 }
 
 h1 {
@@ -60,11 +60,11 @@ h1 {
 }
 
 p {
-  margin-top: 30px;
+  margin-top: 10px;
   font-weight: 100;
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .central {
@@ -125,4 +125,46 @@ input[type=file] {
   color: white;
   font-weight: 400;
   font-size: 16px;
+}
+
+/*RESPONSIVE STYLES*/
+
+@media (max-height: 740px) {
+  .mainlogo {
+    width: 250px;
+  }
+
+  form {
+    padding: 10px;
+    padding-top: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  hr {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .form-control {
+    margin: 5px 0;
+  }
+}
+
+@media (max-height: 667px) and (max-width: 380px) {
+  .mainlogo {
+    width: 200px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
 }
