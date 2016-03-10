@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="central">
-      <img class="mainlogo" src="images/logo.png" alt="Demon Media Awards 2016 Logo" />
+      <img class="mainlogo" src="images/logo-noglow-2.png" alt="Demon Media Awards 2016 Logo" />
       <p>
       </p>
       <form class="main-form" action="api/nominate/index.php" method="post" id="main-form">
