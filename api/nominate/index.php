@@ -62,7 +62,7 @@ if(isset($_FILES['document'])) {
   $doc_ext = explode('.', $doc_name);
   $doc_ext = strtolower(end($doc_ext));
 
-  $allowed = array('mp3', 'tmp', 'doc', 'docx');
+  $allowed = array('mp3', 'tmp', 'doc', 'docx', 'pdf');
 
 
   if(in_array($doc_ext, $allowed)) {
@@ -95,8 +95,8 @@ if(isset($_FILES['document'])) {
 }
 
   $result = $mgClient->sendMessage($domain, array(
-    'from'    => 'Demon Media Nomination Form <noreply@sandbox9ff9b7ec15e4441a843c531b671a7ec1.mailgun.org>',
-    'to'      => 'Daniel Wildman <iWildman1@hotmail.com>',
+    'from'    => 'Demon Media Nomination Form <noreply@demon-media.co.uk>',
+    'to'      => 'Adam Redfern <adam.redfern@dmu.ac.uk>',
     'subject' => 'DMA Nomination - ' . $category,
     'text'    => 'Nomination entered for ' . $name . ', in the category ' . $category . '. The attached message reads - ' . $additional . '. The files attached are - ' . $supporting_location . " and " . $doc_location
   ));
