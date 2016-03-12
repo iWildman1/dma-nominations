@@ -22,7 +22,7 @@
       <p>
       </p>
       <form class="main-form" action="api/nominate/index.php" method="post" id="main-form">
-        <h2>Demon Media Award Nominations</h2>
+        <h2>Demon Media Award Nominations Development</h2>
         <hr></hr>
           <input type="text" class="form-control half" placeholder="Nominee Name" name="name">
           <select class="half form-control" placeholder="Category" name="category">
