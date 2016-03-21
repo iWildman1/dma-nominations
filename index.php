@@ -18,15 +18,15 @@
   </head>
   <body>
     <div class="central">
-      <img class="mainlogo" src="images/logo-noglow-2.png" alt="Demon Media Awards 2016 Logo" />
+      <img class="mainlogo" src="images/suletslogonoglow.png" alt="Demon Media Awards 2016 Logo" />
       <p>
       </p>
-      <form class="main-form" action="api/nominate/index.php" method="post" id="main-form">
-        <h2>Demon Media Award Nominations Development</h2>
-        <hr></hr>
+      <form class="main-form" action="api/nominate/index.php" method="post" id="main-form" autocomplete="off">
+        <h2>Demon Media Award Nominations</h2>
+        <hr>
           <input type="text" class="form-control half" placeholder="Nominee Name" name="name">
-          <select class="half form-control" placeholder="Category" name="category">
-            <option value="The Demon and Demon Online - Best Newcomer">The Demon and Demon Online - Best Newcomer</option>
+          <select name="category">
+            <option value="The Demon and Demon Online - Best Newcomer" selected="selected">The Demon and Demon Online - Best Newcomer</option>
             <option value="The Demon and Demon Online - Best Male">The Demon and Demon Online - Best Male</option>
             <option value="The Demon and Demon Online - Best Female">The Demon and Demon Online - Best Female</option>
             <option value="The Demon - Best Article">The Demon - Best Article</option>

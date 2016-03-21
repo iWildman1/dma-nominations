@@ -24,7 +24,7 @@ if(empty($_FILES['supporting'])) {
     $file_ext = explode('.', $file_name);
     $file_ext = strtolower(end($file_ext));
 
-    $allowed = array('mp3', 'tmp', 'doc', 'docx');
+    $allowed = array('mp3', 'tmp', 'doc', 'docx', 'pdf');
 
 
     if(in_array($file_ext, $allowed)) {
@@ -74,7 +74,7 @@ if(empty($_FILES['document'])) {
     $doc_ext = explode('.', $doc_name);
     $doc_ext = strtolower(end($doc_ext));
 
-    $allowed = array('mp3', 'tmp', 'doc', 'docx');
+    $allowed = array('mp3', 'tmp', 'doc', 'docx', 'pdf');
 
 
     if(in_array($doc_ext, $allowed)) {
