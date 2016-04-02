@@ -22,7 +22,8 @@ $(document).ready(function() {
           swal("Success!", "Your nomination has been counted. Thanks for your time!", "success");
         },
         error: function(error) {
-          swal("Oh no!", "Something went wrong, and we couldn't process your nomination. Please try again.", "error")
+          var message = error.responseJSON.message;
+          swal("Oh no!", message, "error")
           console.log(error.responseJSON.message);
         }
       })
